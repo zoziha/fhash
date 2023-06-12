@@ -62,6 +62,7 @@ jobs:
           git
           wget
           mingw-w64-x86_64-gcc-fortran
+          mingw-w64-x86_64-meson
 
     - name: Install fpm
       shell: msys2 {0}
@@ -82,3 +83,9 @@ jobs:
         gfortran --version
         fpm test --profile release
         fpm run *-demo --profile release
+
+    - name: Run meson test
+      shell: msys2 {0}
+      run: |
+        meson setup build
+        meson test -C build -v

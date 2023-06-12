@@ -26,12 +26,6 @@ module test_tbl_iter
       type(error_t), allocatable, intent(out) :: error
   
       type(fhash_tbl_t) :: tbl
-      integer(int32) :: set_int32, get_int32
-      integer(int64) :: set_int64, get_int64
-      real(sp) :: set_float, get_float
-      real(dp) :: set_double, get_double
-      character(:), allocatable :: set_char, get_char
-      logical :: set_bool, get_bool
       
       integer :: count
       type(fhash_iter_t) :: iter

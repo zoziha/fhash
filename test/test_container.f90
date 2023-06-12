@@ -55,7 +55,7 @@ module test_container
   subroutine test_container_scalar_ptr(error)
     type(error_t), allocatable, intent(out) :: error
 
-    integer(int32), target :: my_int, new_int
+    integer(int32), target :: my_int
     type(fhash_container_t) :: container
 
     my_int = 9

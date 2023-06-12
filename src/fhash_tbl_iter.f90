@@ -46,8 +46,7 @@ module fhash_tbl_iter
     logical :: found
     
     type(fhash_container_t), pointer :: data_container
-    class(*), pointer :: data_out
-    
+
     found = .false.
 
     if (.not.associated(iter%tbl)) return

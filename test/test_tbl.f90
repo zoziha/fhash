@@ -116,7 +116,7 @@ module test_tbl
     integer(int64), pointer :: get_int64
     real(sp), pointer :: get_float
     real(dp), pointer :: get_double
-    character(:), pointer :: set_r, get_char
+    character(:), pointer :: get_char
     logical, pointer :: get_bool
     
     ! Set pointers

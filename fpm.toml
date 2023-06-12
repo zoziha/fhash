@@ -17,9 +17,9 @@ main="main.f90"
 name="methods-demo"
 
 [[executable]]
-source-dir="app/2-derived-type-demo"
+source-dir="app/2-drived-type-demo"
 main="main.f90"
-name="derived-type-demo"
+name="drived-type-demo"
 
 [[executable]]
 source-dir="app/bench"

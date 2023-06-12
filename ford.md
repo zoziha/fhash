@@ -7,5 +7,6 @@ author: L. Kedward
 author_description: 
 github: https://github.com/LKedward/fhash
 page_dir: ./app/
+preprocess: false
 
 {!README.md!}

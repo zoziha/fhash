@@ -265,7 +265,6 @@ module test_sll
     subroutine remove_and_check(key)
       character(*), intent(in) :: key
 
-      type(fhash_container_t), pointer :: data
       logical :: found
 
       call sll_remove(node,fhash_key(key),found)
